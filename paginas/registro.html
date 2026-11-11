@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Eventlap</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Eventlap.Net</h1>
+        <p>Únete a nuestra comunidad de eventos</p>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <h2>Crear una cuenta</h2>
+            <p>Completa tus datos para registrarte.</p>
+
+            <form id="formularioRegistro">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" required>
+
+                <label for="correoRegistro">Correo electrónico</label>
+                <input type="email" id="correoRegistro" required>
+
+                <label for="contrasenaRegistro">Contraseña</label>
+                <input type="password" id="contrasenaRegistro" required minlength="6">
+
+                <button type="submit" class="boton">Registrarse</button>
+            </form>
+
+            <p>¿Ya tienes cuenta?
+                <a href="inicio.html">Inicia sesión</a>
+            </p>
+
+            <p><a href="../index.html">Volver al inicio</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Eventlap © 2026</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
